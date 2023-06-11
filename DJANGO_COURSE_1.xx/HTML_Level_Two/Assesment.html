@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>assestemn html lvl 2</title>
+  </head>
+  <body>
+    <h1>Course Sign up Page</h1>
+
+      <!-- Things we will cover
+      1. Linking Radio Buttons
+      2. Drop-down Menus
+      3. Text Area inputs -->
+
+      <p>Please Note: First Name, Last Name, Password, and Email are required</p>
+
+        <form action="D:\django-course\DJANGO_COURSE_1.xx\HTML_Level_Two\thankyou.html" method="get">
+            <label for="names">First Name:</label>
+            <input id="name" type="text" name="" placeholder="First Name" required>
+
+          <label for="LastName">Last Name:</label>
+          <input id="LastName" type="text" name="LastName" placeholder="Last Name" required>
+          <p></p>
+          <div>
+            <label>Email:
+                <input type="Email" name="Email" placeholder="name@email.com" required>
+              </label>
+              <label>Password:
+                <input type="Password" name="Password" required>
+              </label>
+          </div>
+            <p>Are you over the age of 18?</p>
+            <label for="inside">Yes:</label>
+            <input type="radio" id="inside" name="loc_choice" value="">
+
+             <label for="outside">No:</label>
+            <input type="radio" id="outside" name= "loc_choice" value="out">
+
+            <p>Do you have a Credit card or a paypal?</p>
+            <select name="Payment">
+                <option value="Credit Card">Credit Card</option>
+                <option value="PayPal">PayPal</option>>
+             </select>
+             <p></p>
+             <div>
+            <input type="submit">
+            </div>
+        </form>
+
+
+  </body>
+</html>
